@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Streamlit runtime
+.streamlit/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
