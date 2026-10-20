@@ -1,9 +1,10 @@
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
+ENV/
 
-# Python cache
+# Python cache and bytecode
 __pycache__/
 *.py[cod]
 *$py.class
@@ -11,6 +12,16 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Raw dataset archives and temporary extracted directories
+data/raw_archives/
+data/easy_ham/
+data/spam/
+data/SMSSpamCollection
+data/readme
+
+# Streamlit runtime and user cache
+.streamlit/
 
 # OS generated files
 Thumbs.db
@@ -23,19 +34,10 @@ $RECYCLE.BIN/
 .vscode/
 .idea/
 
-# Streamlit runtime
-.streamlit/
-
-# Environment variables and secrets
+# Environment and secrets
 .env
-.env.*
-!.env.example
-
-# Python test and coverage files
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Local operating-system files
-.DS_Store
-Thumbs.db
+*.env
+secrets.toml
+credentials.json
+*.pem
+*.key

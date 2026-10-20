@@ -1,3 +1,3 @@
 ,Predicted_Ham,Predicted_Spam
-Actual_Ham,901,3
-Actual_Spam,15,116
+Actual_Ham,495,0
+Actual_Spam,9,87
